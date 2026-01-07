@@ -9,4 +9,7 @@ Each new feature should be in its own branch. The feature branches use develop a
 
 With the time develop will be populated with multiple features, then it is time to create a release branch off of develop. Finally after testing the release branch is merged into the main branch.
 
+In case that a problem is identified like a bug in production code, the main strategy is to create a hotfix branch, since the problem is the main branch a hotfix used this branch as the origin instead of the release branch.
+
 Based on: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
